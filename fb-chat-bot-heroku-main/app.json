@@ -1,0 +1,37 @@
+{
+	"name": "NTM FB CHAT BOT",
+	"logo": "https://telegra.ph//file/1a5f74144e73aa0902c81.jpg",
+	"description": "it's now possible to build powerful bots that can interact with people in groups and personal chat.",
+	"keywords": [
+		"NTMFBCHATBOT",
+		"NTM",
+		"FB-BOT",
+		"CHAT-BOT",
+		"BOT",
+		"FB",
+		"CHAT",
+		"NTM-BOT"
+	],
+	"repository": "https://github.com/abdul97233/fb-chat-bot-heroku",
+	"website": "https://t.me/ntmpro",
+	"success_url": "https://t.me/ntmpro",
+	"env": {
+		"c_user": {
+			"description": "put your fb user_id here",
+			"required": "True"
+		},
+		"xs_value": {
+			"description": "put your fb cookies xs value here",
+			"required": "True"
+		}
+	},
+	"stack": "heroku-22",
+
+
+	"formation": {
+		"worker": {
+			"quantity": 1,
+			"size": "free"
+		}
+	}
+}
